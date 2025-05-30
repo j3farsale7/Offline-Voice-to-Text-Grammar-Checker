@@ -1,0 +1,4 @@
+pyinstaller --onefile --add-data "vosk;vosk" --add-data "vosk-model-small-en-us-0.15;vosk-model-small-en-us-0.15" --add-data "languagetool-commandline.jar;." --hidden-import=language_tool_python --hidden-import=six --hidden-import=packaging --hidden-import=pkg_resources Portable.py
+
+Attention
+Put  languagetool.jar   languagetool-commandline.jar Portable.py Portable.spec vosk/  and vosk-model-small-en-us-0.15/ all in one folder in the same order and then run the command

@@ -1,0 +1,16 @@
+# Ignore large model folder
+vosk-model-small-en-us-0.15/
+
+# Ignore compiled files / caches
+__pycache__
+*.pyc
+*.log
+*.tmp
+.DS_Store
+*.swp
+*.swo
+
+# Ignore PyInstaller build outputs
+build/
+dist/
+*.spec

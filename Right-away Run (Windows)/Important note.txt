@@ -1,0 +1,1 @@
+The model folder "vosk-model-small-en-us-0.15/" must be next to the EXE to run.
